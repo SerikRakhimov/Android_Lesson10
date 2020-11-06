@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/alertDialogTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Alert Dialog"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/datePickerDialogTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Date Picker Dialog"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/timePickerDialogTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Time Picker Dialog"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/loadTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Загрузка"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+    <TextView
+    android:id="@+id/customDialogTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="20dp"
+    android:text="Мой диалог"
+    android:textColor="@color/purple_700"
+    android:textSize="30dp" />
+
+</LinearLayout>
